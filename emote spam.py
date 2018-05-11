@@ -2,12 +2,13 @@ import pyautogui
 
 print("This program only works on 1080p screens")
 print("Please set your steam chat window to snap to the right half of your screen")
+x_loops = int(input("Please enter the number of columns of steam emotes you have: ")
 y_loops = int(input("Please enter how many rows of steam emotes you have: "))
 
 for i in range(y_loops):
     x=i*23
     y = 798 + x
-    for i in range(13):
+    for i in range(x_loops):
 
         z=24*i
 
